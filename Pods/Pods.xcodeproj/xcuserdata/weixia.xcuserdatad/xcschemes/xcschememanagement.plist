@@ -4,11 +4,6 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
-		<key>Alamofire.xcscheme</key>
-		<dict>
-			<key>isShown</key>
-			<false/>
-		</dict>
 		<key>Pods-Real Time Stock Price.xcscheme</key>
 		<dict>
 			<key>isShown</key>
@@ -21,6 +16,17 @@
 		</dict>
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
-	<dict/>
+	<dict>
+		<key>47AE08417D157085CC9083897C2824C0</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>C376A7C6A7B50B9D8F550790DAAA0DC4</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+	</dict>
 </dict>
 </plist>

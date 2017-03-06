@@ -3,6 +3,5 @@ use_frameworks!
 
 target 'Real Time Stock Price' do
   use_frameworks!
-  pod 'Alamofire', '~> 3.0'
   pod 'SwiftyJSON'
 end

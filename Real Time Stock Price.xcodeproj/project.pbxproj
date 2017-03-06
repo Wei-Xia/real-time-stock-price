@@ -1,0 +1,297 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BD30C3971E6CC1EC00186062 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD30C3961E6CC1EC00186062 /* AppDelegate.swift */; };
+		BD30C3991E6CC1EC00186062 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD30C3981E6CC1EC00186062 /* ViewController.swift */; };
+		BD30C39C1E6CC1EC00186062 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BD30C39A1E6CC1EC00186062 /* Main.storyboard */; };
+		BD30C39E1E6CC1EC00186062 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BD30C39D1E6CC1EC00186062 /* Assets.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		BD30C3931E6CC1EC00186062 /* Real Time Stock Price.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Real Time Stock Price.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BD30C3961E6CC1EC00186062 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		BD30C3981E6CC1EC00186062 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		BD30C39B1E6CC1EC00186062 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BD30C39D1E6CC1EC00186062 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BD30C39F1E6CC1EC00186062 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BD30C3901E6CC1EC00186062 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BD30C38A1E6CC1EC00186062 = {
+			isa = PBXGroup;
+			children = (
+				BD30C3951E6CC1EC00186062 /* Real Time Stock Price */,
+				BD30C3941E6CC1EC00186062 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BD30C3941E6CC1EC00186062 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BD30C3931E6CC1EC00186062 /* Real Time Stock Price.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BD30C3951E6CC1EC00186062 /* Real Time Stock Price */ = {
+			isa = PBXGroup;
+			children = (
+				BD30C3961E6CC1EC00186062 /* AppDelegate.swift */,
+				BD30C3981E6CC1EC00186062 /* ViewController.swift */,
+				BD30C39A1E6CC1EC00186062 /* Main.storyboard */,
+				BD30C39D1E6CC1EC00186062 /* Assets.xcassets */,
+				BD30C39F1E6CC1EC00186062 /* Info.plist */,
+			);
+			path = "Real Time Stock Price";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BD30C3921E6CC1EC00186062 /* Real Time Stock Price */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BD30C3A21E6CC1EC00186062 /* Build configuration list for PBXNativeTarget "Real Time Stock Price" */;
+			buildPhases = (
+				BD30C38F1E6CC1EC00186062 /* Sources */,
+				BD30C3901E6CC1EC00186062 /* Frameworks */,
+				BD30C3911E6CC1EC00186062 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Real Time Stock Price";
+			productName = "Real Time Stock Price";
+			productReference = BD30C3931E6CC1EC00186062 /* Real Time Stock Price.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BD30C38B1E6CC1EC00186062 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "Wei Xia";
+				TargetAttributes = {
+					BD30C3921E6CC1EC00186062 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = JKVUBMY3K2;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = BD30C38E1E6CC1EC00186062 /* Build configuration list for PBXProject "Real Time Stock Price" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BD30C38A1E6CC1EC00186062;
+			productRefGroup = BD30C3941E6CC1EC00186062 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BD30C3921E6CC1EC00186062 /* Real Time Stock Price */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BD30C3911E6CC1EC00186062 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BD30C39E1E6CC1EC00186062 /* Assets.xcassets in Resources */,
+				BD30C39C1E6CC1EC00186062 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BD30C38F1E6CC1EC00186062 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BD30C3991E6CC1EC00186062 /* ViewController.swift in Sources */,
+				BD30C3971E6CC1EC00186062 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		BD30C39A1E6CC1EC00186062 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BD30C39B1E6CC1EC00186062 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BD30C3A01E6CC1EC00186062 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = appletvos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 10.1;
+			};
+			name = Debug;
+		};
+		BD30C3A11E6CC1EC00186062 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = appletvos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 10.1;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BD30C3A31E6CC1EC00186062 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				DEVELOPMENT_TEAM = JKVUBMY3K2;
+				INFOPLIST_FILE = "Real Time Stock Price/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "info.weixia.com.Real-Time-Stock-Price";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		BD30C3A41E6CC1EC00186062 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				DEVELOPMENT_TEAM = JKVUBMY3K2;
+				INFOPLIST_FILE = "Real Time Stock Price/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "info.weixia.com.Real-Time-Stock-Price";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BD30C38E1E6CC1EC00186062 /* Build configuration list for PBXProject "Real Time Stock Price" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BD30C3A01E6CC1EC00186062 /* Debug */,
+				BD30C3A11E6CC1EC00186062 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BD30C3A21E6CC1EC00186062 /* Build configuration list for PBXNativeTarget "Real Time Stock Price" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BD30C3A31E6CC1EC00186062 /* Debug */,
+				BD30C3A41E6CC1EC00186062 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BD30C38B1E6CC1EC00186062 /* Project object */;
+}

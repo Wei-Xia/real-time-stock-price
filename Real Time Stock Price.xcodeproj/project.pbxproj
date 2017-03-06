@@ -367,6 +367,7 @@
 				BD30C3A41E6CC1EC00186062 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

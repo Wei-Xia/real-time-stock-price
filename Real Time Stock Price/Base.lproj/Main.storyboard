@@ -42,17 +42,17 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="IBM-logo" translatesAutoresizingMaskIntoConstraints="NO" id="Fnp-IZ-Zzm">
-                                <rect key="frame" x="20" y="20" width="274" height="145"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" userInteractionEnabled="NO" contentMode="scaleToFill" fixedFrame="YES" editable="NO" text="Stock quote data provided by YAHOO!. Market indices are shown in real time no later than 5 seconds." textAlignment="natural" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hzx-rs-bAt">
-                                <rect key="frame" x="370" y="1004" width="1180" height="68"/>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" userInteractionEnabled="NO" contentMode="scaleToFill" fixedFrame="YES" editable="NO" text="Stock quote data provided by YAHOO!. Market price is shown in real time no later than 5 seconds." textAlignment="natural" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hzx-rs-bAt">
+                                <rect key="frame" x="396" y="956" width="1129" height="70"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="25"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="IBM-logo" translatesAutoresizingMaskIntoConstraints="NO" id="Fnp-IZ-Zzm">
+                                <rect key="frame" x="780" y="106" width="360" height="191"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
                         </subviews>
                         <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.0" colorSpace="custom" customColorSpace="sRGB"/>
                     </view>

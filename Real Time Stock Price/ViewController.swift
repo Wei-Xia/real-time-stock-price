@@ -61,7 +61,7 @@ class ViewController: UIViewController, UITextFieldDelegate, URLSessionDelegate,
                 let json = JSON(dict)
 
                 let price = json["LastPrice"].stringValue
-                let changePrice = json["Change"].stringValue as String
+                let changePrice = json["ChangePercent"].stringValue as String
                 let index = changePrice.index(changePrice.startIndex, offsetBy:5)
                 let change = changePrice.substring(to:index)
 

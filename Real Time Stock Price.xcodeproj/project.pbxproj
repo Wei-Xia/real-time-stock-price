@@ -12,6 +12,7 @@
 		BD30C3991E6CC1EC00186062 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD30C3981E6CC1EC00186062 /* ViewController.swift */; };
 		BD30C39C1E6CC1EC00186062 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BD30C39A1E6CC1EC00186062 /* Main.storyboard */; };
 		BD30C39E1E6CC1EC00186062 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BD30C39D1E6CC1EC00186062 /* Assets.xcassets */; };
+		BD8EAE011E71E6B100E0FAFD /* IBM-logo.png in Resources */ = {isa = PBXBuildFile; fileRef = BD8EAE001E71E6B100E0FAFD /* IBM-logo.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,6 +24,7 @@
 		BD30C39B1E6CC1EC00186062 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		BD30C39D1E6CC1EC00186062 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BD30C39F1E6CC1EC00186062 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BD8EAE001E71E6B100E0FAFD /* IBM-logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "IBM-logo.png"; sourceTree = "<group>"; };
 		BE7A03BE516C6537581A8909 /* Pods-Real Time Stock Price.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Real Time Stock Price.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Real Time Stock Price/Pods-Real Time Stock Price.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -81,6 +83,7 @@
 				BD30C39A1E6CC1EC00186062 /* Main.storyboard */,
 				BD30C39D1E6CC1EC00186062 /* Assets.xcassets */,
 				BD30C39F1E6CC1EC00186062 /* Info.plist */,
+				BD8EAE001E71E6B100E0FAFD /* IBM-logo.png */,
 			);
 			path = "Real Time Stock Price";
 			sourceTree = "<group>";
@@ -150,6 +153,7 @@
 			files = (
 				BD30C39E1E6CC1EC00186062 /* Assets.xcassets in Resources */,
 				BD30C39C1E6CC1EC00186062 /* Main.storyboard in Resources */,
+				BD8EAE011E71E6B100E0FAFD /* IBM-logo.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

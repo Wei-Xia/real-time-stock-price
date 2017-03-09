@@ -8,10 +8,12 @@
 
 import UIKit
 import SwiftyJSON
+import Foundation
 
 class ViewController: UIViewController, UITextFieldDelegate, URLSessionDelegate, URLSessionDataDelegate {
 
     @IBOutlet weak var PriceBox: UILabel!
+    @IBOutlet weak var percentage: UILabel!
     
     func sendRequest(url: String, completionHandler: @escaping (Data?, URLResponse?, Error?) -> Void) -> URLSessionTask {
         
@@ -40,7 +42,7 @@ class ViewController: UIViewController, UITextFieldDelegate, URLSessionDelegate,
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        Timer.scheduledTimer(withTimeInterval: 10, repeats: true) { (timer) in
+        Timer.scheduledTimer(withTimeInterval: 5, repeats: true) { (timer) in
             self.sendRequest(url: "http://dev.markitondemand.com/MODApis/Api/v2/Quote/json?symbol=IBM", completionHandler:{data, response, error in
                 
                 guard error == nil && data != nil else {
@@ -59,11 +61,13 @@ class ViewController: UIViewController, UITextFieldDelegate, URLSessionDelegate,
                 let json = JSON(dict)
 
                 let price = json["LastPrice"].stringValue
-                
-                print(price)
+                let changePrice = json["Change"].stringValue as String
+                let index = changePrice.index(changePrice.startIndex, offsetBy:5)
+                let change = changePrice.substring(to:index)
 
                 DispatchQueue.main.async {
                     self.PriceBox.text = price as String?
+                    self.percentage.text = change as String?
                 }
             })
             print("fire")
